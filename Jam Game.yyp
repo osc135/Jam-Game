@@ -49,7 +49,8 @@
     {"id":{"name":"wall_obj","path":"objects/wall_obj/wall_obj.yy",},},
     {"id":{"name":"WeirdTestAnimal","path":"objects/WeirdTestAnimal/WeirdTestAnimal.yy",},},
     {"id":{"name":"FarmhouseRoom","path":"rooms/FarmhouseRoom/FarmhouseRoom.yy",},},
-    {"id":{"name":"TestTransitionROom","path":"rooms/TestTransitionROom/TestTransitionROom.yy",},},
+    {"id":{"name":"TestTransitionOutside","path":"rooms/TestTransitionOutside/TestTransitionOutside.yy",},},
+    {"id":{"name":"Inventory_Functions","path":"scripts/Inventory_Functions/Inventory_Functions.yy",},},
     {"id":{"name":"Script_Macros","path":"scripts/Script_Macros/Script_Macros.yy",},},
     {"id":{"name":"Farmhouse_spr","path":"sprites/Farmhouse_spr/Farmhouse_spr.yy",},},
     {"id":{"name":"FarmhouseTiles_spr","path":"sprites/FarmhouseTiles_spr/FarmhouseTiles_spr.yy",},},
@@ -74,7 +75,7 @@
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
     {"roomId":{"name":"FarmhouseRoom","path":"rooms/FarmhouseRoom/FarmhouseRoom.yy",},},
-    {"roomId":{"name":"TestTransitionROom","path":"rooms/TestTransitionROom/TestTransitionROom.yy",},},
+    {"roomId":{"name":"TestTransitionOutside","path":"rooms/TestTransitionOutside/TestTransitionOutside.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[

@@ -1,11 +1,10 @@
 //The amount of slots in the inventory
-#macro INVENTORY_SLOTS 8
+#macro INVENTORY_SLOTS  8
 
 rowLength = 8;
 inventory = array_create(INVENTORY_SLOTS, -1);
 
 //testing 
-randomize();
 
 inventory[0] = 0;
 inventory[1] = 0;
