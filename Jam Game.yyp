@@ -44,7 +44,6 @@
   "resources":[
     {"id":{"name":"Farmhouse_obj","path":"objects/Farmhouse_obj/Farmhouse_obj.yy",},},
     {"id":{"name":"Inventory_Object","path":"objects/Inventory_Object/Inventory_Object.yy",},},
-    {"id":{"name":"pickaxe_object","path":"objects/pickaxe_object/pickaxe_object.yy",},},
     {"id":{"name":"Rock_Object","path":"objects/Rock_Object/Rock_Object.yy",},},
     {"id":{"name":"Room_Transition_Object","path":"objects/Room_Transition_Object/Room_Transition_Object.yy",},},
     {"id":{"name":"StartPlayer_obj","path":"objects/StartPlayer_obj/StartPlayer_obj.yy",},},
@@ -65,7 +64,6 @@
     {"id":{"name":"Inventory_item","path":"sprites/Inventory_item/Inventory_item.yy",},},
     {"id":{"name":"Inventory_Slot","path":"sprites/Inventory_Slot/Inventory_Slot.yy",},},
     {"id":{"name":"Inventory","path":"sprites/Inventory/Inventory.yy",},},
-    {"id":{"name":"pickaxe","path":"sprites/pickaxe/pickaxe.yy",},},
     {"id":{"name":"PlayerDown_spr","path":"sprites/PlayerDown_spr/PlayerDown_spr.yy",},},
     {"id":{"name":"PlayerLeft_spr","path":"sprites/PlayerLeft_spr/PlayerLeft_spr.yy",},},
     {"id":{"name":"PlayerRight_spr","path":"sprites/PlayerRight_spr/PlayerRight_spr.yy",},},

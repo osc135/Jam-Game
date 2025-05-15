@@ -44,11 +44,17 @@ y += yspeed;
 
 //Checks if key pressed is Z for pickaxe
 if (keyboard_check_pressed(ord("Z"))) {
+    if (keyboard_check_pressed(ord("Z"))) {
     var swing = instance_create_layer(x, y, "Instances", Swining_Pickaxe);
-swing.image_xscale = image_xscale;
+     with (swing) {
+        image_xscale = other.image_xscale;  
+    }
+
+}
 }
 
 //Animate
 if xspeed == 0 && yspeed == 0 {
 	image_index = 0;
+	
 }

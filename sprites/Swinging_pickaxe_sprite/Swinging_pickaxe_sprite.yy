@@ -3,15 +3,18 @@
   "%Name":"Swinging_pickaxe_sprite",
   "bboxMode":0,
   "bbox_bottom":15,
-  "bbox_left":3,
-  "bbox_right":12,
-  "bbox_top":4,
+  "bbox_left":2,
+  "bbox_right":15,
+  "bbox_top":2,
   "collisionKind":1,
   "collisionTolerance":0,
   "DynamicTexturePage":false,
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
+    {"$GMSpriteFrame":"","%Name":"e48186df-4ce9-4b2a-969f-7b16821820e6","name":"e48186df-4ce9-4b2a-969f-7b16821820e6","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"82b0d2bf-26d4-4ba6-94d8-53d205656d22","name":"82b0d2bf-26d4-4ba6-94d8-53d205656d22","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"4c014dd5-a25b-4c0c-ace3-6aeb7a09f81f","name":"4c014dd5-a25b-4c0c-ace3-6aeb7a09f81f","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
     {"$GMSpriteFrame":"","%Name":"59ecb591-93a1-4464-87d6-31050687fc08","name":"59ecb591-93a1-4464-87d6-31050687fc08","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
@@ -49,7 +52,7 @@
     },
     "eventStubScript":null,
     "eventToFunction":{},
-    "length":1.0,
+    "length":4.0,
     "lockOrigin":false,
     "moments":{
       "$KeyframeStore<MomentsEventKeyframe>":"",
@@ -71,8 +74,17 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"e48186df-4ce9-4b2a-969f-7b16821820e6","path":"sprites/Swinging_pickaxe_sprite/Swinging_pickaxe_sprite.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"2afcf90b-9027-4b23-af2d-f7a05b8a6b6a","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"82b0d2bf-26d4-4ba6-94d8-53d205656d22","path":"sprites/Swinging_pickaxe_sprite/Swinging_pickaxe_sprite.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"786ca950-8513-4206-a242-586b7e837be3","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"4c014dd5-a25b-4c0c-ace3-6aeb7a09f81f","path":"sprites/Swinging_pickaxe_sprite/Swinging_pickaxe_sprite.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"55941a12-20dc-4a3d-a321-1392dc322cd7","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
                 "0":{"$SpriteFrameKeyframe":"","Id":{"name":"59ecb591-93a1-4464-87d6-31050687fc08","path":"sprites/Swinging_pickaxe_sprite/Swinging_pickaxe_sprite.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"9bc925a6-4d93-44c0-80cc-8d80f52fd11d","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+              },"Disabled":false,"id":"9bc925a6-4d93-44c0-80cc-8d80f52fd11d","IsCreationKey":false,"Key":3.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,

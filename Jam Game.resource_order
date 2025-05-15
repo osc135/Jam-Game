@@ -26,7 +26,6 @@
   "ResourceOrderSettings":[
     {"name":"Farmhouse_obj","order":2,"path":"objects/Farmhouse_obj/Farmhouse_obj.yy",},
     {"name":"Inventory_Object","order":8,"path":"objects/Inventory_Object/Inventory_Object.yy",},
-    {"name":"pickaxe_object","order":6,"path":"objects/pickaxe_object/pickaxe_object.yy",},
     {"name":"Rock_Object","order":5,"path":"objects/Rock_Object/Rock_Object.yy",},
     {"name":"Room_Transition_Object","order":4,"path":"objects/Room_Transition_Object/Room_Transition_Object.yy",},
     {"name":"Swining_Pickaxe","order":7,"path":"objects/Swining_Pickaxe/Swining_Pickaxe.yy",},
@@ -40,7 +39,6 @@
     {"name":"Hoe_spr","order":1,"path":"sprites/Hoe_spr/Hoe_spr.yy",},
     {"name":"Inventory_item","order":3,"path":"sprites/Inventory_item/Inventory_item.yy",},
     {"name":"Inventory_Slot","order":1,"path":"sprites/Inventory_Slot/Inventory_Slot.yy",},
-    {"name":"pickaxe","order":4,"path":"sprites/pickaxe/pickaxe.yy",},
     {"name":"PlayerLeft_spr","order":1,"path":"sprites/PlayerLeft_spr/PlayerLeft_spr.yy",},
     {"name":"PlayerRight_spr","order":2,"path":"sprites/PlayerRight_spr/PlayerRight_spr.yy",},
     {"name":"PlayerUp_spr","order":3,"path":"sprites/PlayerUp_spr/PlayerUp_spr.yy",},
