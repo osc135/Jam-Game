@@ -25,8 +25,8 @@
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"Tiles",
-    "path":"folders/Sprites/Tiles.yy",
+    "name":"Plants",
+    "path":"folders/Sprites/Plants.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

@@ -1,7 +1,7 @@
-right_key = keyboard_check(vk_right);
-left_key = keyboard_check(vk_left);
-up_key = keyboard_check(vk_up);
-down_key = keyboard_check(vk_down);
+right_key = keyboard_check(ord("D"));
+left_key = keyboard_check(ord("A"));
+up_key = keyboard_check(ord("W"));
+down_key = keyboard_check(ord("S"));
 
 //Calculating Direction
 xspeed = (right_key - left_key) * move_speed;
@@ -43,15 +43,33 @@ x += xspeed;
 y += yspeed;
 
 //Checks if key pressed is Z for pickaxe
-if (keyboard_check_pressed(ord("Z"))) {
     if (keyboard_check_pressed(ord("Z"))) {
-    var swing = instance_create_layer(x, y, "Instances", Swining_Pickaxe);
-     with (swing) {
-        image_xscale = other.image_xscale;  
-    }
+		var offsetX = 12;
+		var offsetY = 0
+		switch(face){
+			case RIGHT:
+				//offsetX = 12;
+				offsetY = 2;
+				break;
+			case LEFT:
+				offsetX = -12;
+				//offsetY = 2;
+				break;
+			case UP:
+				//offsetX = 12;
+				offsetY = -2;
+				break;
+			case DOWN:
+				//offsetX = 12;
+				offsetY = 2;
+				break; 
+			
+	}	
+			
+  //  var swing = instance_create_layer(x + offsetX, y + offsetY, "Instances", Swining_Pickaxe);
+   // swing.image_xscale = image_xscale;
+}
 
-}
-}
 
 //Animate
 if xspeed == 0 && yspeed == 0 {
