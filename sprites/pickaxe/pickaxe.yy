@@ -25,8 +25,8 @@
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"Tiles",
-    "path":"folders/Sprites/Tiles.yy",
+    "name":"Potions&Tools",
+    "path":"folders/Sprites/Potions&Tools.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
