@@ -3,7 +3,6 @@
     {"name":"Animation Curves","order":12,"path":"folders/Animation Curves.yy",},
     {"name":"Extensions","order":14,"path":"folders/Extensions.yy",},
     {"name":"Fonts","order":7,"path":"folders/Fonts.yy",},
-    {"name":"Menu","order":16,"path":"folders/Menu.yy",},
     {"name":"Notes","order":13,"path":"folders/Notes.yy",},
     {"name":"Objects","order":9,"path":"folders/Objects.yy",},
     {"name":"Particle Systems","order":15,"path":"folders/Particle Systems.yy",},
@@ -17,11 +16,6 @@
     {"name":"Animals","order":9,"path":"folders/Sprites/Animals.yy",},
     {"name":"Buildings","order":8,"path":"folders/Sprites/Buildings.yy",},
     {"name":"Functioning","order":13,"path":"folders/Sprites/Functioning.yy",},
-<<<<<<< Updated upstream
-    {"name":"Furniture","order":16,"path":"folders/Sprites/Furniture.yy",},
-=======
-    {"name":"Menu Stuff","order":16,"path":"folders/Sprites/Menu Stuff.yy",},
->>>>>>> Stashed changes
     {"name":"Plants","order":15,"path":"folders/Sprites/Plants.yy",},
     {"name":"Player","order":6,"path":"folders/Sprites/Player.yy",},
     {"name":"Potions&Tools","order":14,"path":"folders/Sprites/Potions&Tools.yy",},
@@ -30,33 +24,22 @@
     {"name":"Timelines","order":8,"path":"folders/Timelines.yy",},
   ],
   "ResourceOrderSettings":[
-    {"name":"Chairs_obj","order":10,"path":"objects/Chairs_obj/Chairs_obj.yy",},
     {"name":"Farmhouse_obj","order":2,"path":"objects/Farmhouse_obj/Farmhouse_obj.yy",},
     {"name":"Inventory_Object","order":8,"path":"objects/Inventory_Object/Inventory_Object.yy",},
     {"name":"Rock_Object","order":5,"path":"objects/Rock_Object/Rock_Object.yy",},
     {"name":"Room_Transition_Object","order":4,"path":"objects/Room_Transition_Object/Room_Transition_Object.yy",},
-    {"name":"settings_Object","order":4,"path":"objects/settings_Object/settings_Object.yy",},
     {"name":"Swining_Pickaxe","order":7,"path":"objects/Swining_Pickaxe/Swining_Pickaxe.yy",},
-<<<<<<< Updated upstream
-    {"name":"Tables_obj","order":9,"path":"objects/Tables_obj/Tables_obj.yy",},
-=======
-    {"name":"Title_menu","order":3,"path":"objects/Title_menu/Title_menu.yy",},
->>>>>>> Stashed changes
     {"name":"wall_obj","order":1,"path":"objects/wall_obj/wall_obj.yy",},
     {"name":"WeirdTestAnimal","order":3,"path":"objects/WeirdTestAnimal/WeirdTestAnimal.yy",},
     {"name":"PotionRoom","order":2,"path":"rooms/PotionRoom/PotionRoom.yy",},
     {"name":"TestTransitionOutside","order":1,"path":"rooms/TestTransitionOutside/TestTransitionOutside.yy",},
     {"name":"Inventory_Functions","order":1,"path":"scripts/Inventory_Functions/Inventory_Functions.yy",},
-    {"name":"BasicChairs_spr","order":1,"path":"sprites/BasicChairs_spr/BasicChairs_spr.yy",},
-    {"name":"BasicTables_spr","order":2,"path":"sprites/BasicTables_spr/BasicTables_spr.yy",},
     {"name":"BluePotion_spr","order":2,"path":"sprites/BluePotion_spr/BluePotion_spr.yy",},
     {"name":"FarmhouseTiles_spr","order":1,"path":"sprites/FarmhouseTiles_spr/FarmhouseTiles_spr.yy",},
-    {"name":"font_spr","order":1,"path":"sprites/font_spr/font_spr.yy",},
     {"name":"Hoe_spr","order":1,"path":"sprites/Hoe_spr/Hoe_spr.yy",},
     {"name":"Inventory_item","order":3,"path":"sprites/Inventory_item/Inventory_item.yy",},
     {"name":"Inventory_Slot","order":1,"path":"sprites/Inventory_Slot/Inventory_Slot.yy",},
     {"name":"menu_spr","order":5,"path":"sprites/menu_spr/menu_spr.yy",},
-    {"name":"Menu","order":2,"path":"sprites/Menu/Menu.yy",},
     {"name":"PlayerLeft_spr","order":1,"path":"sprites/PlayerLeft_spr/PlayerLeft_spr.yy",},
     {"name":"PlayerRight_spr","order":2,"path":"sprites/PlayerRight_spr/PlayerRight_spr.yy",},
     {"name":"PlayerUp_spr","order":3,"path":"sprites/PlayerUp_spr/PlayerUp_spr.yy",},

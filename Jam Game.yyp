@@ -13,7 +13,6 @@
     {"$GMFolder":"","%Name":"Animation Curves","folderPath":"folders/Animation Curves.yy","name":"Animation Curves","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Extensions","folderPath":"folders/Extensions.yy","name":"Extensions","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Fonts","folderPath":"folders/Fonts.yy","name":"Fonts","resourceType":"GMFolder","resourceVersion":"2.0",},
-    {"$GMFolder":"","%Name":"Menu","folderPath":"folders/Menu.yy","name":"Menu","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Notes","folderPath":"folders/Notes.yy","name":"Notes","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Objects","folderPath":"folders/Objects.yy","name":"Objects","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Particle Systems","folderPath":"folders/Particle Systems.yy","name":"Particle Systems","resourceType":"GMFolder","resourceVersion":"2.0",},
@@ -27,11 +26,6 @@
     {"$GMFolder":"","%Name":"Animals","folderPath":"folders/Sprites/Animals.yy","name":"Animals","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Buildings","folderPath":"folders/Sprites/Buildings.yy","name":"Buildings","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Functioning","folderPath":"folders/Sprites/Functioning.yy","name":"Functioning","resourceType":"GMFolder","resourceVersion":"2.0",},
-<<<<<<< Updated upstream
-    {"$GMFolder":"","%Name":"Furniture","folderPath":"folders/Sprites/Furniture.yy","name":"Furniture","resourceType":"GMFolder","resourceVersion":"2.0",},
-=======
-    {"$GMFolder":"","%Name":"Menu Stuff","folderPath":"folders/Sprites/Menu Stuff.yy","name":"Menu Stuff","resourceType":"GMFolder","resourceVersion":"2.0",},
->>>>>>> Stashed changes
     {"$GMFolder":"","%Name":"Plants","folderPath":"folders/Sprites/Plants.yy","name":"Plants","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Player","folderPath":"folders/Sprites/Player.yy","name":"Player","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Potions&Tools","folderPath":"folders/Sprites/Potions&Tools.yy","name":"Potions&Tools","resourceType":"GMFolder","resourceVersion":"2.0",},
@@ -48,30 +42,19 @@
   },
   "name":"Jam Game",
   "resources":[
-    {"id":{"name":"Chairs_obj","path":"objects/Chairs_obj/Chairs_obj.yy",},},
     {"id":{"name":"Farmhouse_obj","path":"objects/Farmhouse_obj/Farmhouse_obj.yy",},},
     {"id":{"name":"Inventory_Object","path":"objects/Inventory_Object/Inventory_Object.yy",},},
     {"id":{"name":"Rock_Object","path":"objects/Rock_Object/Rock_Object.yy",},},
     {"id":{"name":"Room_Transition_Object","path":"objects/Room_Transition_Object/Room_Transition_Object.yy",},},
-    {"id":{"name":"settings_Object","path":"objects/settings_Object/settings_Object.yy",},},
     {"id":{"name":"StartPlayer_obj","path":"objects/StartPlayer_obj/StartPlayer_obj.yy",},},
     {"id":{"name":"Swining_Pickaxe","path":"objects/Swining_Pickaxe/Swining_Pickaxe.yy",},},
-<<<<<<< Updated upstream
-    {"id":{"name":"Tables_obj","path":"objects/Tables_obj/Tables_obj.yy",},},
-=======
-    {"id":{"name":"Title_menu","path":"objects/Title_menu/Title_menu.yy",},},
->>>>>>> Stashed changes
     {"id":{"name":"wall_obj","path":"objects/wall_obj/wall_obj.yy",},},
     {"id":{"name":"WeirdTestAnimal","path":"objects/WeirdTestAnimal/WeirdTestAnimal.yy",},},
     {"id":{"name":"FarmhouseRoom","path":"rooms/FarmhouseRoom/FarmhouseRoom.yy",},},
-    {"id":{"name":"Menu_Title_Screen","path":"rooms/Menu_Title_Screen/Menu_Title_Screen.yy",},},
     {"id":{"name":"PotionRoom","path":"rooms/PotionRoom/PotionRoom.yy",},},
     {"id":{"name":"TestTransitionOutside","path":"rooms/TestTransitionOutside/TestTransitionOutside.yy",},},
     {"id":{"name":"Inventory_Functions","path":"scripts/Inventory_Functions/Inventory_Functions.yy",},},
     {"id":{"name":"Script_Macros","path":"scripts/Script_Macros/Script_Macros.yy",},},
-    {"id":{"name":"BasicChairs_spr","path":"sprites/BasicChairs_spr/BasicChairs_spr.yy",},},
-    {"id":{"name":"BasicFurniture_spr","path":"sprites/BasicFurniture_spr/BasicFurniture_spr.yy",},},
-    {"id":{"name":"BasicTables_spr","path":"sprites/BasicTables_spr/BasicTables_spr.yy",},},
     {"id":{"name":"BluePotion_spr","path":"sprites/BluePotion_spr/BluePotion_spr.yy",},},
     {"id":{"name":"Farmhouse_spr","path":"sprites/Farmhouse_spr/Farmhouse_spr.yy",},},
     {"id":{"name":"FarmhouseTiles_spr","path":"sprites/FarmhouseTiles_spr/FarmhouseTiles_spr.yy",},},
@@ -83,7 +66,6 @@
     {"id":{"name":"Inventory_Slot","path":"sprites/Inventory_Slot/Inventory_Slot.yy",},},
     {"id":{"name":"Inventory","path":"sprites/Inventory/Inventory.yy",},},
     {"id":{"name":"menu_spr","path":"sprites/menu_spr/menu_spr.yy",},},
-    {"id":{"name":"Menu","path":"sprites/Menu/Menu.yy",},},
     {"id":{"name":"PlayerDown_spr","path":"sprites/PlayerDown_spr/PlayerDown_spr.yy",},},
     {"id":{"name":"PlayerLeft_spr","path":"sprites/PlayerLeft_spr/PlayerLeft_spr.yy",},},
     {"id":{"name":"PlayerRight_spr","path":"sprites/PlayerRight_spr/PlayerRight_spr.yy",},},
@@ -102,7 +84,6 @@
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
-    {"roomId":{"name":"Menu_Title_Screen","path":"rooms/Menu_Title_Screen/Menu_Title_Screen.yy",},},
     {"roomId":{"name":"FarmhouseRoom","path":"rooms/FarmhouseRoom/FarmhouseRoom.yy",},},
     {"roomId":{"name":"TestTransitionOutside","path":"rooms/TestTransitionOutside/TestTransitionOutside.yy",},},
     {"roomId":{"name":"PotionRoom","path":"rooms/PotionRoom/PotionRoom.yy",},},
