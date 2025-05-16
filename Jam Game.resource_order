@@ -44,7 +44,7 @@
     {"name":"PlayerRight_spr","order":2,"path":"sprites/PlayerRight_spr/PlayerRight_spr.yy",},
     {"name":"PlayerUp_spr","order":3,"path":"sprites/PlayerUp_spr/PlayerUp_spr.yy",},
     {"name":"RedPotion_spr","order":3,"path":"sprites/RedPotion_spr/RedPotion_spr.yy",},
-    {"name":"Rock","order":3,"path":"sprites/Rock/Rock.yy",},
+    {"name":"Rock","order":2,"path":"sprites/Rock/Rock.yy",},
     {"name":"Room_Transition","order":2,"path":"sprites/Room_Transition/Room_Transition.yy",},
     {"name":"Swinging_pickaxe_sprite","order":5,"path":"sprites/Swinging_pickaxe_sprite/Swinging_pickaxe_sprite.yy",},
     {"name":"wall_spr","order":2,"path":"sprites/wall_spr/wall_spr.yy",},

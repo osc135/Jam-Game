@@ -83,9 +83,9 @@
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
+    {"roomId":{"name":"PotionRoom","path":"rooms/PotionRoom/PotionRoom.yy",},},
     {"roomId":{"name":"FarmhouseRoom","path":"rooms/FarmhouseRoom/FarmhouseRoom.yy",},},
     {"roomId":{"name":"TestTransitionOutside","path":"rooms/TestTransitionOutside/TestTransitionOutside.yy",},},
-    {"roomId":{"name":"PotionRoom","path":"rooms/PotionRoom/PotionRoom.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[
