@@ -59,6 +59,7 @@
     {"id":{"name":"Farmhouse_spr","path":"sprites/Farmhouse_spr/Farmhouse_spr.yy",},},
     {"id":{"name":"FarmhouseTiles_spr","path":"sprites/FarmhouseTiles_spr/FarmhouseTiles_spr.yy",},},
     {"id":{"name":"FireFlower_spr","path":"sprites/FireFlower_spr/FireFlower_spr.yy",},},
+    {"id":{"name":"font_spr","path":"sprites/font_spr/font_spr.yy",},},
     {"id":{"name":"GrassTiles","path":"sprites/GrassTiles/GrassTiles.yy",},},
     {"id":{"name":"Hoe_spr","path":"sprites/Hoe_spr/Hoe_spr.yy",},},
     {"id":{"name":"Inventory_item","path":"sprites/Inventory_item/Inventory_item.yy",},},
