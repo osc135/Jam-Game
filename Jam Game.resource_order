@@ -36,7 +36,6 @@
     {"name":"Inventory_Functions","order":1,"path":"scripts/Inventory_Functions/Inventory_Functions.yy",},
     {"name":"BluePotion_spr","order":2,"path":"sprites/BluePotion_spr/BluePotion_spr.yy",},
     {"name":"FarmhouseTiles_spr","order":1,"path":"sprites/FarmhouseTiles_spr/FarmhouseTiles_spr.yy",},
-    {"name":"font_spr","order":4,"path":"sprites/font_spr/font_spr.yy",},
     {"name":"Hoe_spr","order":1,"path":"sprites/Hoe_spr/Hoe_spr.yy",},
     {"name":"Inventory_item","order":3,"path":"sprites/Inventory_item/Inventory_item.yy",},
     {"name":"Inventory_Slot","order":1,"path":"sprites/Inventory_Slot/Inventory_Slot.yy",},

@@ -118,8 +118,8 @@
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"Functioning",
-    "path":"folders/Sprites/Functioning.yy",
+    "name":"Fonts",
+    "path":"folders/Fonts.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
