@@ -65,6 +65,7 @@
     {"id":{"name":"Inventory_item","path":"sprites/Inventory_item/Inventory_item.yy",},},
     {"id":{"name":"Inventory_Slot","path":"sprites/Inventory_Slot/Inventory_Slot.yy",},},
     {"id":{"name":"Inventory","path":"sprites/Inventory/Inventory.yy",},},
+    {"id":{"name":"menu_spr","path":"sprites/menu_spr/menu_spr.yy",},},
     {"id":{"name":"PlayerDown_spr","path":"sprites/PlayerDown_spr/PlayerDown_spr.yy",},},
     {"id":{"name":"PlayerLeft_spr","path":"sprites/PlayerLeft_spr/PlayerLeft_spr.yy",},},
     {"id":{"name":"PlayerRight_spr","path":"sprites/PlayerRight_spr/PlayerRight_spr.yy",},},
@@ -83,9 +84,9 @@
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
-    {"roomId":{"name":"PotionRoom","path":"rooms/PotionRoom/PotionRoom.yy",},},
     {"roomId":{"name":"FarmhouseRoom","path":"rooms/FarmhouseRoom/FarmhouseRoom.yy",},},
     {"roomId":{"name":"TestTransitionOutside","path":"rooms/TestTransitionOutside/TestTransitionOutside.yy",},},
+    {"roomId":{"name":"PotionRoom","path":"rooms/PotionRoom/PotionRoom.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[
