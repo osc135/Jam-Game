@@ -9,8 +9,18 @@ op_space = 20;
 //used to highlight and select events
 position = 0;
 
-options[0] = "start game";
-options[1] = "settings";
-options[2] = "quit";
+//main meu
+options[0, 0] = "START GAME";
+options[0, 1] = "SETTINGS";
+options[0, 2] = "QUIT";
 
-options_length = array_length(options);
+//settings menu
+options[1, 0] = "WINDOW SIZE";
+options[1, 1] = "BRIGHTNESS";
+options[1, 2] = "CONTROLS";
+options[1, 3] = "BACK";
+
+
+options_length = 0;
+
+menu_level = 0;
