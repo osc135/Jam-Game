@@ -1,3 +1,3 @@
-target_x = 80;
-target_y = 25;
+target_x = 62;
+target_y = 6;
 target_room = TestTransitionOutside;
