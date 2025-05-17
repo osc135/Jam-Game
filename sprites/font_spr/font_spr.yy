@@ -118,8 +118,8 @@
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"Everything_Menu",
-    "path":"folders/Sprites/Everything_Menu.yy",
+    "name":"Fonts",
+    "path":"folders/Fonts.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
