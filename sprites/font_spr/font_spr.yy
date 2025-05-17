@@ -119,13 +119,8 @@
   "nineSlice":null,
   "origin":0,
   "parent":{
-<<<<<<< HEAD
     "name":"Menu Stuff",
     "path":"folders/Sprites/Menu Stuff.yy",
-=======
-    "name":"Functioning",
-    "path":"folders/Sprites/Functioning.yy",
->>>>>>> parent of 1ab40f8 (meow test)
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
