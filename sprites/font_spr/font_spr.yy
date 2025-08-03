@@ -119,8 +119,13 @@
   "nineSlice":null,
   "origin":0,
   "parent":{
+<<<<<<< HEAD
     "name":"Fonts",
     "path":"folders/Fonts.yy",
+=======
+    "name":"Everything_Menu",
+    "path":"folders/Everything_Menu.yy",
+>>>>>>> 328e9e7 (Enhance settings menu and add dialogue system)
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
