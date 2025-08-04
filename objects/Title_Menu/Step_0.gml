@@ -13,7 +13,7 @@ position += down_key - up_key;
 
 //loops the menu to the number of items never going out of bounds
 if position >= options_length {position = 0};
-if position < 0	{position = op_length - 1};
+if position < 0	{position = options_length - 1};
 	
 //using the options
 

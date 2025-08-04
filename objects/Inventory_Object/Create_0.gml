@@ -3,6 +3,7 @@
 
 rowLength = 8;
 inventory = array_create(INVENTORY_SLOTS, -1);
+selected_slot = 0;
 
 //testing 
 
