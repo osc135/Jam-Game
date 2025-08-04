@@ -27,6 +27,7 @@
   ],
   "ResourceOrderSettings":[
     {"name":"Chairs_obj","order":10,"path":"objects/Chairs_obj/Chairs_obj.yy",},
+    {"name":"Dropped_Item","order":11,"path":"objects/Dropped_Item/Dropped_Item.yy",},
     {"name":"Farmhouse_obj","order":2,"path":"objects/Farmhouse_obj/Farmhouse_obj.yy",},
     {"name":"Inventory_Object","order":8,"path":"objects/Inventory_Object/Inventory_Object.yy",},
     {"name":"Rock_Object","order":5,"path":"objects/Rock_Object/Rock_Object.yy",},

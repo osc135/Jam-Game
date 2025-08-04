@@ -17,7 +17,7 @@ for (var i = 0; i < INVENTORY_SLOTS; i++) {
         draw_sprite(Inventory_Slot, 0, xx, yy);
     } else {
         // Non-selected slots - draw darker
-        draw_sprite_ext(Inventory_Slot, 0, xx, yy, 1, 1, 0, c_gray, 0.7);
+        draw_sprite_ext(Inventory_Slot, 0, xx, yy, 1, 1, 0, c_gray, 0.8);
     }
 
     // Draw the item icon if present
@@ -27,7 +27,7 @@ for (var i = 0; i < INVENTORY_SLOTS; i++) {
             draw_sprite(Inventory_item, inventory[i], xx, yy);
         } else {
             // Item in non-selected slot - darker
-            draw_sprite_ext(Inventory_item, inventory[i], xx, yy, 1, 1, 0, c_gray, 0.7);
+            draw_sprite_ext(Inventory_item, inventory[i], xx, yy, 1, 1, 0, c_gray, 0.8);
         }
     }
 }

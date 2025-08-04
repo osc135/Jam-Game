@@ -46,6 +46,7 @@
   "name":"Jam Game",
   "resources":[
     {"id":{"name":"Chairs_obj","path":"objects/Chairs_obj/Chairs_obj.yy",},},
+    {"id":{"name":"Dropped_Item","path":"objects/Dropped_Item/Dropped_Item.yy",},},
     {"id":{"name":"Farmhouse_obj","path":"objects/Farmhouse_obj/Farmhouse_obj.yy",},},
     {"id":{"name":"Inventory_Object","path":"objects/Inventory_Object/Inventory_Object.yy",},},
     {"id":{"name":"Rock_Object","path":"objects/Rock_Object/Rock_Object.yy",},},
