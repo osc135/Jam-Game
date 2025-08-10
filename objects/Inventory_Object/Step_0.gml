@@ -43,7 +43,7 @@ if (keyboard_check_pressed(ord("G"))) {
             // Drop item in the direction player is facing
             var drop_x = player.x;
             var drop_y = player.y;
-            var drop_distance = 16;
+            var drop_distance = 8;
             
             // Check player's sprite to determine facing direction
             if (player.sprite_index == PlayerRight_spr) {
