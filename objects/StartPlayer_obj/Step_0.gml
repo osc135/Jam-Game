@@ -3,7 +3,7 @@ left_key = keyboard_check(ord("A"));
 up_key = keyboard_check(ord("W"));
 down_key = keyboard_check(ord("S"));
 
-shift_key = keyboard_check(ord("shift"));
+
 
 //Calculating Direction
 xspeed = (right_key - left_key) * move_speed;
