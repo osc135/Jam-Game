@@ -2,12 +2,14 @@ right_key = keyboard_check(ord("D"));
 left_key = keyboard_check(ord("A"));
 up_key = keyboard_check(ord("W"));
 down_key = keyboard_check(ord("S"));
+shift_key = keyboard_check(vk_shift);
 
 
-
-//Calculating Direction
-xspeed = (right_key - left_key) * move_speed;
-yspeed = (down_key - up_key) * move_speed;
+//Calculating Direction with sprint
+	//sprint seems weird amount, come back to change maybe 
+var current_speed = shift_key ? move_speed * 1.5 : move_speed;
+xspeed = (right_key - left_key) * current_speed;
+yspeed = (down_key - up_key) * current_speed;
 
 
 // Set Sprite
