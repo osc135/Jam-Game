@@ -63,6 +63,7 @@
     {"id":{"name":"PotionRoom","path":"rooms/PotionRoom/PotionRoom.yy",},},
     {"id":{"name":"Testing_dialogue","path":"rooms/Testing_dialogue/Testing_dialogue.yy",},},
     {"id":{"name":"TestTransitionOutside","path":"rooms/TestTransitionOutside/TestTransitionOutside.yy",},},
+    {"id":{"name":"Title_Menu_Room","path":"rooms/Title_Menu_Room/Title_Menu_Room.yy",},},
     {"id":{"name":"Inventory_Functions","path":"scripts/Inventory_Functions/Inventory_Functions.yy",},},
     {"id":{"name":"Script_Macros","path":"scripts/Script_Macros/Script_Macros.yy",},},
     {"id":{"name":"BasicChairs_spr","path":"sprites/BasicChairs_spr/BasicChairs_spr.yy",},},
@@ -98,6 +99,7 @@
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
+    {"roomId":{"name":"Title_Menu_Room","path":"rooms/Title_Menu_Room/Title_Menu_Room.yy",},},
     {"roomId":{"name":"FarmhouseRoom","path":"rooms/FarmhouseRoom/FarmhouseRoom.yy",},},
     {"roomId":{"name":"TestTransitionOutside","path":"rooms/TestTransitionOutside/TestTransitionOutside.yy",},},
     {"roomId":{"name":"PotionRoom","path":"rooms/PotionRoom/PotionRoom.yy",},},

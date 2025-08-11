@@ -40,6 +40,7 @@
     {"name":"WeirdTestAnimal","order":3,"path":"objects/WeirdTestAnimal/WeirdTestAnimal.yy",},
     {"name":"PotionRoom","order":2,"path":"rooms/PotionRoom/PotionRoom.yy",},
     {"name":"TestTransitionOutside","order":1,"path":"rooms/TestTransitionOutside/TestTransitionOutside.yy",},
+    {"name":"Title_Menu_Room","order":4,"path":"rooms/Title_Menu_Room/Title_Menu_Room.yy",},
     {"name":"Inventory_Functions","order":1,"path":"scripts/Inventory_Functions/Inventory_Functions.yy",},
     {"name":"BasicChairs_spr","order":1,"path":"sprites/BasicChairs_spr/BasicChairs_spr.yy",},
     {"name":"BasicTables_spr","order":2,"path":"sprites/BasicTables_spr/BasicTables_spr.yy",},

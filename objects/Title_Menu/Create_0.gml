@@ -1,5 +1,8 @@
 // Initialize menu system
-global.font_main = font_spr;
+// Disable texture filtering for crisp pixel fonts
+gpu_set_texfilter(false);
+// Create font from sprite
+global.font_main = font_add_sprite(font_spr, ord(" ")-1, true, 1);
 
 // Menu options
 options[0, 0] = "Start Game";
