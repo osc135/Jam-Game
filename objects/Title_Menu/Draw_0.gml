@@ -2,7 +2,7 @@
 draw_set_font(global.font_main);
 
 // Scale up the menu for better visibility
-var menu_scale = 2;
+var menu_scale = 3;
 
 //calculating width and height of menu
 var _new_width = 0;
