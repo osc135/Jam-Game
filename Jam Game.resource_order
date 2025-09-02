@@ -48,6 +48,7 @@
     {"name":"Inventory_Functions","order":1,"path":"scripts/Inventory_Functions/Inventory_Functions.yy",},
     {"name":"BasicChairs_spr","order":1,"path":"sprites/BasicChairs_spr/BasicChairs_spr.yy",},
     {"name":"BasicTables_spr","order":2,"path":"sprites/BasicTables_spr/BasicTables_spr.yy",},
+    {"name":"bed_spr","order":3,"path":"sprites/bed_spr/bed_spr.yy",},
     {"name":"BluePotion_spr","order":2,"path":"sprites/BluePotion_spr/BluePotion_spr.yy",},
     {"name":"FarmhouseTiles_spr","order":1,"path":"sprites/FarmhouseTiles_spr/FarmhouseTiles_spr.yy",},
     {"name":"Hoe_spr","order":1,"path":"sprites/Hoe_spr/Hoe_spr.yy",},
