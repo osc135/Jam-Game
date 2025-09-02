@@ -73,7 +73,6 @@
     {"id":{"name":"BasicChairs_spr","path":"sprites/BasicChairs_spr/BasicChairs_spr.yy",},},
     {"id":{"name":"BasicFurniture_spr","path":"sprites/BasicFurniture_spr/BasicFurniture_spr.yy",},},
     {"id":{"name":"BasicTables_spr","path":"sprites/BasicTables_spr/BasicTables_spr.yy",},},
-    {"id":{"name":"bed_spr","path":"sprites/bed_spr/bed_spr.yy",},},
     {"id":{"name":"BluePotion_spr","path":"sprites/BluePotion_spr/BluePotion_spr.yy",},},
     {"id":{"name":"Character_Menu_Create_Spr","path":"sprites/Character_Menu_Create_Spr/Character_Menu_Create_Spr.yy",},},
     {"id":{"name":"Farmhouse_spr","path":"sprites/Farmhouse_spr/Farmhouse_spr.yy",},},
