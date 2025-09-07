@@ -1,4 +1,4 @@
-//The amount of slots in the inventory
+ //The amount of slots in the inventory
 #macro INVENTORY_SLOTS  8
 
 rowLength = 8;
