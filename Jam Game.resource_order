@@ -51,6 +51,7 @@
     {"name":"WeirdTestAnimal","order":2,"path":"objects/WeirdTestAnimal/WeirdTestAnimal.yy",},
     {"name":"CharacterCreateMenu_Room","order":3,"path":"rooms/CharacterCreateMenu_Room/CharacterCreateMenu_Room.yy",},
     {"name":"HouseCreateMenu","order":4,"path":"rooms/HouseCreateMenu/HouseCreateMenu.yy",},
+    {"name":"Init_rm","order":5,"path":"rooms/Init_rm/Init_rm.yy",},
     {"name":"PotionRoom","order":2,"path":"rooms/PotionRoom/PotionRoom.yy",},
     {"name":"TestTransitionOutside","order":1,"path":"rooms/TestTransitionOutside/TestTransitionOutside.yy",},
     {"name":"Title_Menu_Room","order":4,"path":"rooms/Title_Menu_Room/Title_Menu_Room.yy",},

@@ -76,6 +76,7 @@
     {"id":{"name":"CharacterCreateMenu_Room","path":"rooms/CharacterCreateMenu_Room/CharacterCreateMenu_Room.yy",},},
     {"id":{"name":"FarmhouseRoom","path":"rooms/FarmhouseRoom/FarmhouseRoom.yy",},},
     {"id":{"name":"HouseCreateMenu","path":"rooms/HouseCreateMenu/HouseCreateMenu.yy",},},
+    {"id":{"name":"Init_rm","path":"rooms/Init_rm/Init_rm.yy",},},
     {"id":{"name":"PotionRoom","path":"rooms/PotionRoom/PotionRoom.yy",},},
     {"id":{"name":"Testing_dialogue","path":"rooms/Testing_dialogue/Testing_dialogue.yy",},},
     {"id":{"name":"TestTransitionOutside","path":"rooms/TestTransitionOutside/TestTransitionOutside.yy",},},
@@ -123,6 +124,7 @@
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
+    {"roomId":{"name":"Init_rm","path":"rooms/Init_rm/Init_rm.yy",},},
     {"roomId":{"name":"FarmhouseRoom","path":"rooms/FarmhouseRoom/FarmhouseRoom.yy",},},
     {"roomId":{"name":"Title_Menu_Room","path":"rooms/Title_Menu_Room/Title_Menu_Room.yy",},},
     {"roomId":{"name":"CharacterCreateMenu_Room","path":"rooms/CharacterCreateMenu_Room/CharacterCreateMenu_Room.yy",},},
