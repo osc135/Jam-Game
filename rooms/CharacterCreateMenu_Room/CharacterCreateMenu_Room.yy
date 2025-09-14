@@ -17,8 +17,8 @@
   ],
   "name":"CharacterCreateMenu_Room",
   "parent":{
-    "name":"Rooms",
-    "path":"folders/Rooms.yy",
+    "name":"Functioning",
+    "path":"folders/Rooms/Functioning.yy",
   },
   "parentRoom":null,
   "physicsSettings":{
