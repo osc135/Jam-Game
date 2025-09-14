@@ -50,8 +50,8 @@
   ],
   "name":"FarmhouseRoom",
   "parent":{
-    "name":"Rooms",
-    "path":"folders/Rooms.yy",
+    "name":"World",
+    "path":"folders/Rooms/World.yy",
   },
   "parentRoom":null,
   "physicsSettings":{
