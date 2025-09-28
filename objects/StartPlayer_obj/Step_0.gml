@@ -7,12 +7,34 @@ shift_key = keyboard_check(vk_shift);
 
 //Calculating Direction with sprint
 	//sprint seems weird amount, come back to change maybe 
-var current_speed = shift_key ? move_speed * 1.5 : move_speed;
-xspeed = (right_key - left_key) * current_speed;
-yspeed = (down_key - up_key) * current_speed;
+var current_speed = shift_key ? moveSpeed * 1.5 : moveSpeed;
+moveX = (right_key - left_key) * current_speed;
+moveY = (down_key - up_key) * current_speed;
 
+//Collisions
+if (Collisions(x + moveX, y)){
+    moveX = 0;
+}
+if (Collisions(x, y + moveY)){
+    moveY = 0;
+}
 
-// Set Sprite
+x += moveX;
+y += moveY;
+
+//Animation: Move
+if (moveX != 0 or moveY != 0){
+    sprite_index = PlayerMove_spr;
+    
+    //Facing
+    if (moveX != 0) image_xscale = sign(moveX);
+}
+else{
+    sprite_index = PlayerIdle_spr;
+}
+
+// OLD Set Sprite
+/*
 mask_index = sprite[DOWN];
 if yspeed == 0 {
 
@@ -32,20 +54,23 @@ if yspeed < 0 && face == DOWN {face = UP};
 
 sprite_index = sprite[face];
 
-//Checking Collisions
-if place_meeting(x + xspeed, y, wall_obj) == true
+ */
+
+
+
+/*
+// OLD Checking Collisions
+if place_meeting(x + moveX, y, wall_obj) == true
 	{
-	xspeed = 0
+	moveX = 0
 	}
-if place_meeting(x, y + yspeed, wall_obj) == true
+if place_meeting(x, y + moveY, wall_obj) == true
 	{
-	yspeed = 0
+	moveY = 0
 	}
+/*
 
-
-x += xspeed;
-y += yspeed;
-
+/*
 //Checks if key pressed is Z for pickaxe
     if (keyboard_check_pressed(ord("Z"))) {
 		var offsetX = 12;
@@ -73,10 +98,4 @@ y += yspeed;
   //  var swing = instance_create_layer(x + offsetX, y + offsetY, "Instances", Swining_Pickaxe);
    // swing.image_xscale = image_xscale;
 }
-
-
-//Animate
-if xspeed == 0 && yspeed == 0 {
-	image_index = 0;
-	
-}
+*/

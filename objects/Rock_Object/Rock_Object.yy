@@ -12,7 +12,10 @@
     "name":"Other",
     "path":"folders/Objects/Other.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"BreakableParent_obj",
+    "path":"objects/BreakableParent_obj/BreakableParent_obj.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,

@@ -31,9 +31,12 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"PlayerDown_spr",
-    "path":"sprites/PlayerDown_spr/PlayerDown_spr.yy",
+    "name":"PlayerIdle_spr",
+    "path":"sprites/PlayerIdle_spr/PlayerIdle_spr.yy",
   },
-  "spriteMaskId":null,
+  "spriteMaskId":{
+    "name":"PlayerIdle_spr",
+    "path":"sprites/PlayerIdle_spr/PlayerIdle_spr.yy",
+  },
   "visible":true,
 }

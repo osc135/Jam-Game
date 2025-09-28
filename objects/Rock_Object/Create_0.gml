@@ -1,1 +1,0 @@
-hits_remaning = 3;

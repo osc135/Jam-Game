@@ -1,2 +1,6 @@
-image_index = 0;
-image_speed = 0.2;
+
+cooldown = 0;
+
+rotation = 45;
+
+breakdistance = 32;
