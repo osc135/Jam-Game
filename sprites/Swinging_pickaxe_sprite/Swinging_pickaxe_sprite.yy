@@ -3,7 +3,7 @@
   "%Name":"Swinging_pickaxe_sprite",
   "bboxMode":0,
   "bbox_bottom":16,
-  "bbox_left":0,
+  "bbox_left":1,
   "bbox_right":14,
   "bbox_top":2,
   "collisionKind":1,
@@ -13,8 +13,6 @@
   "For3D":false,
   "frames":[
     {"$GMSpriteFrame":"","%Name":"da406c91-8747-4c3d-9e82-ce67e8289223","name":"da406c91-8747-4c3d-9e82-ce67e8289223","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"ac26338f-20a5-43ef-9cf7-28059b16b7ae","name":"ac26338f-20a5-43ef-9cf7-28059b16b7ae","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"59ecb591-93a1-4464-87d6-31050687fc08","name":"59ecb591-93a1-4464-87d6-31050687fc08","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
@@ -51,7 +49,7 @@
     },
     "eventStubScript":null,
     "eventToFunction":{},
-    "length":3.0,
+    "length":1.0,
     "lockOrigin":false,
     "moments":{
       "$KeyframeStore<MomentsEventKeyframe>":"",
@@ -75,12 +73,6 @@
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
                 "0":{"$SpriteFrameKeyframe":"","Id":{"name":"da406c91-8747-4c3d-9e82-ce67e8289223","path":"sprites/Swinging_pickaxe_sprite/Swinging_pickaxe_sprite.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
               },"Disabled":false,"id":"0dee1950-9490-4dc1-ac58-ba023eb53408","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"ac26338f-20a5-43ef-9cf7-28059b16b7ae","path":"sprites/Swinging_pickaxe_sprite/Swinging_pickaxe_sprite.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"9b68efb8-0a68-4e0f-b6ed-9f241430feb4","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"59ecb591-93a1-4464-87d6-31050687fc08","path":"sprites/Swinging_pickaxe_sprite/Swinging_pickaxe_sprite.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"9bc925a6-4d93-44c0-80cc-8d80f52fd11d","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,
