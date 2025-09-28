@@ -25,7 +25,7 @@ if accept_key{
 			switch(position){
 		//starting game
 				case 0: 
-				room_goto_next()
+				room_goto(CharacterCreateMenu_Room);
 				break;
 			
 		//settings
