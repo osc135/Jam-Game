@@ -1,7 +1,10 @@
 {
   "$GMObject":"",
   "%Name":"BreakableParent_obj",
-  "eventList":[],
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
   "name":"BreakableParent_obj",
   "overriddenProperties":[],
@@ -9,7 +12,10 @@
     "name":"Functioning",
     "path":"folders/Objects/Functioning.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"Collision_obj",
+    "path":"objects/Collision_obj/Collision_obj.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,

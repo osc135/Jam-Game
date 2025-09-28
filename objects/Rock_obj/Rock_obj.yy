@@ -1,18 +1,20 @@
 {
   "$GMObject":"",
-  "%Name":"Swining_Pickaxe",
+  "%Name":"Rock_obj",
   "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":1,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"Swining_Pickaxe",
+  "name":"Rock_obj",
   "overriddenProperties":[],
   "parent":{
-    "name":"Functioning",
-    "path":"folders/Objects/Functioning.yy",
+    "name":"Other",
+    "path":"folders/Objects/Other.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"BreakableParent_obj",
+    "path":"objects/BreakableParent_obj/BreakableParent_obj.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -31,8 +33,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Swinging_pickaxe_sprite",
-    "path":"sprites/Swinging_pickaxe_sprite/Swinging_pickaxe_sprite.yy",
+    "name":"Rock",
+    "path":"sprites/Rock/Rock.yy",
   },
   "spriteMaskId":null,
   "visible":true,

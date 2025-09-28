@@ -1,20 +1,17 @@
 {
   "$GMObject":"",
-  "%Name":"Rock_Object",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"DroppedRock_obj",
+  "eventList":[],
   "managed":true,
-  "name":"Rock_Object",
+  "name":"DroppedRock_obj",
   "overriddenProperties":[],
   "parent":{
     "name":"Other",
     "path":"folders/Objects/Other.yy",
   },
   "parentObjectId":{
-    "name":"BreakableParent_obj",
-    "path":"objects/BreakableParent_obj/BreakableParent_obj.yy",
+    "name":"Dropped_Item",
+    "path":"objects/Dropped_Item/Dropped_Item.yy",
   },
   "persistent":false,
   "physicsAngularDamping":0.1,

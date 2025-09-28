@@ -1,9 +1,9 @@
 {
   "$GMScript":"v1",
-  "%Name":"Collisions",
+  "%Name":"collision",
   "isCompatibility":false,
   "isDnD":false,
-  "name":"Collisions",
+  "name":"collision",
   "parent":{
     "name":"Scripts",
     "path":"folders/Scripts.yy",
