@@ -12,10 +12,19 @@ moveX = (right_key - left_key) * current_speed;
 moveY = (down_key - up_key) * current_speed;
 
 //Collisions
-if (Collisions(x + moveX, y)){
+if (collision(x + moveX, y)){
+    //Moves player pixel by pixel to ensure collision
+    while (!collision(x + sign(moveX), y)){
+        x += sign(moveX)
+    }
+    
     moveX = 0;
 }
-if (Collisions(x, y + moveY)){
+if (collision(x, y + moveY)){
+    while (!collision(x, y + sign(moveY))){
+        y += sign(moveY)
+    }
+    
     moveY = 0;
 }
 
