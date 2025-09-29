@@ -9,7 +9,10 @@
     "name":"Furniture",
     "path":"folders/Objects/Furniture.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"Collision_obj",
+    "path":"objects/Collision_obj/Collision_obj.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
