@@ -6,8 +6,8 @@
   "name":"DroppedRock_obj",
   "overriddenProperties":[],
   "parent":{
-    "name":"Other",
-    "path":"folders/Objects/Other.yy",
+    "name":"World",
+    "path":"folders/Objects/World.yy",
   },
   "parentObjectId":{
     "name":"Dropped_Item",

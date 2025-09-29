@@ -45,6 +45,7 @@ if (keyboard_check_pressed(ord("G"))) {
             var drop_y = player.y;
             var drop_distance = 8;
             
+            /*
             // Check player's sprite to determine facing direction
             if (player.sprite_index == PlayerRight_spr) {
                 drop_x += drop_distance;
@@ -58,6 +59,7 @@ if (keyboard_check_pressed(ord("G"))) {
                 // Default: drop to the right if no direction sprite
                 drop_x += drop_distance;
             }
+             */
             
             // Create a dropped item in the facing direction
             var dropped = instance_create_depth(drop_x, drop_y, -100, Dropped_Item);
