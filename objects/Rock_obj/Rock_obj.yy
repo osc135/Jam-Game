@@ -33,8 +33,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Rock",
-    "path":"sprites/Rock/Rock.yy",
+    "name":"rock_spr",
+    "path":"sprites/rock_spr/rock_spr.yy",
   },
   "spriteMaskId":null,
   "visible":true,
