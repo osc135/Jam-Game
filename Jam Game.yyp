@@ -63,7 +63,6 @@
     {"id":{"name":"BreakableParent_obj","path":"objects/BreakableParent_obj/BreakableParent_obj.yy",},},
     {"id":{"name":"chair_obj","path":"objects/chair_obj/chair_obj.yy",},},
     {"id":{"name":"Chairs_obj","path":"objects/Chairs_obj/Chairs_obj.yy",},},
-    {"id":{"name":"CharacterCreateMenu","path":"objects/CharacterCreateMenu/CharacterCreateMenu.yy",},},
     {"id":{"name":"Collision_obj","path":"objects/Collision_obj/Collision_obj.yy",},},
     {"id":{"name":"Controller_obj","path":"objects/Controller_obj/Controller_obj.yy",},},
     {"id":{"name":"desk_obj","path":"objects/desk_obj/desk_obj.yy",},},
