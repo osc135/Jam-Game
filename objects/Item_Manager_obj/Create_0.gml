@@ -1,3 +1,4 @@
+/*
 depth = -999999;
 
 //creating items

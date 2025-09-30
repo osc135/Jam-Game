@@ -1,3 +1,4 @@
+/*
 //draw_set_font
 
 for (var i=0; i < array_length(inv); i++){
