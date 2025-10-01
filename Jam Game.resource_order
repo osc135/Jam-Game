@@ -46,6 +46,7 @@
     {"name":"Collision_obj","order":9,"path":"objects/Collision_obj/Collision_obj.yy",},
     {"name":"Controller_obj","order":10,"path":"objects/Controller_obj/Controller_obj.yy",},
     {"name":"desk_obj","order":5,"path":"objects/desk_obj/desk_obj.yy",},
+    {"name":"Dropped_blueFl_obj","order":7,"path":"objects/Dropped_blueFl_obj/Dropped_blueFl_obj.yy",},
     {"name":"Dropped_Item_obj","order":3,"path":"objects/Dropped_Item_obj/Dropped_Item_obj.yy",},
     {"name":"Dropped_redFl_obj","order":6,"path":"objects/Dropped_redFl_obj/Dropped_redFl_obj.yy",},
     {"name":"Dropped_rock_obj","order":5,"path":"objects/Dropped_rock_obj/Dropped_rock_obj.yy",},
