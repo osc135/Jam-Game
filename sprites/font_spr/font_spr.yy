@@ -119,8 +119,8 @@
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"Everything_Menu",
-    "path":"folders/Everything_Menu.yy",
+    "name":"Animals",
+    "path":"folders/Sprites/Animals.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

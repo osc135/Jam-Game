@@ -1,8 +1,6 @@
 {
   "FolderOrderSettings":[
     {"name":"Animation Curves","order":11,"path":"folders/Animation Curves.yy",},
-    {"name":"Dialogue_System","order":16,"path":"folders/Dialogue_System.yy",},
-    {"name":"Everything_Menu","order":15,"path":"folders/Everything_Menu.yy",},
     {"name":"Extensions","order":13,"path":"folders/Extensions.yy",},
     {"name":"Fonts","order":6,"path":"folders/Fonts.yy",},
     {"name":"Notes","order":12,"path":"folders/Notes.yy",},
@@ -63,8 +61,6 @@
     {"name":"Room_Transition_Object","order":3,"path":"objects/Room_Transition_Object/Room_Transition_Object.yy",},
     {"name":"rug_obj","order":4,"path":"objects/rug_obj/rug_obj.yy",},
     {"name":"StartPlayer_obj","order":1,"path":"objects/StartPlayer_obj/StartPlayer_obj.yy",},
-    {"name":"Textbox_object","order":2,"path":"objects/Textbox_object/Textbox_object.yy",},
-    {"name":"Title_Menu","order":3,"path":"objects/Title_Menu/Title_Menu.yy",},
     {"name":"wall_obj","order":4,"path":"objects/wall_obj/wall_obj.yy",},
     {"name":"WeirdTestAnimal","order":2,"path":"objects/WeirdTestAnimal/WeirdTestAnimal.yy",},
     {"name":"FarmhouseRoom","order":1,"path":"rooms/FarmhouseRoom/FarmhouseRoom.yy",},
@@ -74,7 +70,6 @@
     {"name":"Mines_1","order":1,"path":"rooms/Mines_1/Mines_1.yy",},
     {"name":"PotionRoom","order":3,"path":"rooms/PotionRoom/PotionRoom.yy",},
     {"name":"S_Forest","order":1,"path":"rooms/S_Forest/S_Forest.yy",},
-    {"name":"Title_Menu_Room","order":4,"path":"rooms/Title_Menu_Room/Title_Menu_Room.yy",},
     {"name":"collision","order":3,"path":"scripts/collision/collision.yy",},
     {"name":"Inventory_Functions","order":1,"path":"scripts/Inventory_Functions/Inventory_Functions.yy",},
     {"name":"BasicChairs_spr","order":1,"path":"sprites/BasicChairs_spr/BasicChairs_spr.yy",},
@@ -89,6 +84,7 @@
     {"name":"desk_spr","order":6,"path":"sprites/desk_spr/desk_spr.yy",},
     {"name":"Doctor_spr","order":4,"path":"sprites/Doctor_spr/Doctor_spr.yy",},
     {"name":"FarmhouseTiles_spr","order":1,"path":"sprites/FarmhouseTiles_spr/FarmhouseTiles_spr.yy",},
+    {"name":"font_spr","order":1,"path":"sprites/font_spr/font_spr.yy",},
     {"name":"Garden_spr","order":9,"path":"sprites/Garden_spr/Garden_spr.yy",},
     {"name":"Hoe_spr","order":1,"path":"sprites/Hoe_spr/Hoe_spr.yy",},
     {"name":"Inn_spr","order":8,"path":"sprites/Inn_spr/Inn_spr.yy",},
