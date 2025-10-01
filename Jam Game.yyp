@@ -67,6 +67,7 @@
     {"id":{"name":"Collision_obj","path":"objects/Collision_obj/Collision_obj.yy",},},
     {"id":{"name":"Controller_obj","path":"objects/Controller_obj/Controller_obj.yy",},},
     {"id":{"name":"desk_obj","path":"objects/desk_obj/desk_obj.yy",},},
+    {"id":{"name":"Dropped_blueFl_obj","path":"objects/Dropped_blueFl_obj/Dropped_blueFl_obj.yy",},},
     {"id":{"name":"Dropped_Item_obj","path":"objects/Dropped_Item_obj/Dropped_Item_obj.yy",},},
     {"id":{"name":"Dropped_redFl_obj","path":"objects/Dropped_redFl_obj/Dropped_redFl_obj.yy",},},
     {"id":{"name":"Dropped_rock_obj","path":"objects/Dropped_rock_obj/Dropped_rock_obj.yy",},},
