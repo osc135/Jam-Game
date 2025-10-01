@@ -35,6 +35,7 @@
     {"name":"Timelines","order":7,"path":"folders/Timelines.yy",},
   ],
   "ResourceOrderSettings":[
+    {"name":"Font","order":15,"path":"fonts/Font/Font.yy",},
     {"name":"bed_obj","order":2,"path":"objects/bed_obj/bed_obj.yy",},
     {"name":"BlueFlower_obj","order":4,"path":"objects/BlueFlower_obj/BlueFlower_obj.yy",},
     {"name":"bookshelf_obj","order":8,"path":"objects/bookshelf_obj/bookshelf_obj.yy",},
