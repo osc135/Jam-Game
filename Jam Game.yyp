@@ -55,6 +55,7 @@
   },
   "name":"Jam Game",
   "resources":[
+    {"id":{"name":"Font","path":"fonts/Font/Font.yy",},},
     {"id":{"name":"bed_obj","path":"objects/bed_obj/bed_obj.yy",},},
     {"id":{"name":"BlueFlower_obj","path":"objects/BlueFlower_obj/BlueFlower_obj.yy",},},
     {"id":{"name":"bookshelf_obj","path":"objects/bookshelf_obj/bookshelf_obj.yy",},},
