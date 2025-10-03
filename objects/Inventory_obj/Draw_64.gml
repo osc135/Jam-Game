@@ -35,27 +35,6 @@ for (var i=0; i < INVENTORY_SLOTS; i++){
     }else{
         draw_sprite_ext(Inventory_Slot_spr, 0, xx, yy, 1, 1, 0, c_white, 0.8);        
     }
-    
-    var slot = inventory[i];
-    //draw item
-    if (slot.id != noone){
-        var item_data = global.item_list[slot.id];
-        
-        if (i == selected_slot){
-            draw_sprite(item_data.sprite, 0, xx, yy);
-        }else{
-            draw_sprite_ext(item_data.sprite, 0, xx, yy, 1, 1, 0, c_white, 0.8);
-        }
-        
-        //draw stack count
-        if (item_data.stackable && slot.count > 1){
-            draw_set_halign(fa_right);
-            draw_set_valign(fa_bottom);
-            draw_text(xx + slotW - 4, yy + slotH - 4, string(slot.count));
-            draw_set_halign(fa_left);
-            draw_set_valign(fa_top);
-        }
-        
-    }
-        
+     
+       
 }
