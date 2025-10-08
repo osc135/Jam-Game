@@ -27,6 +27,7 @@
     {"name":"Character_Create","order":17,"path":"folders/Sprites/Character_Create.yy",},
     {"name":"Functioning","order":13,"path":"folders/Sprites/Functioning.yy",},
     {"name":"Furniture","order":16,"path":"folders/Sprites/Furniture.yy",},
+    {"name":"Characters","order":18,"path":"folders/Sprites/Characters.yy",},
     {"name":"Plants","order":15,"path":"folders/Sprites/Plants.yy",},
     {"name":"Player","order":6,"path":"folders/Sprites/Player.yy",},
     {"name":"Tiles","order":7,"path":"folders/Sprites/Tiles.yy",},
