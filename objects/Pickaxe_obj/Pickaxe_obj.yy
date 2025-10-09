@@ -1,19 +1,21 @@
 {
   "$GMObject":"",
   "%Name":"Pickaxe_obj",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "eventList":[],
   "managed":true,
   "name":"Pickaxe_obj",
-  "overriddenProperties":[],
+  "overriddenProperties":[
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"ToolParent_obj","path":"objects/ToolParent_obj/ToolParent_obj.yy",},"propertyId":{"name":"item_id","path":"objects/ToolParent_obj/ToolParent_obj.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"\"pickaxe\"",},
+  ],
   "parent":{
     "name":"Functioning",
     "path":"folders/Objects/Functioning.yy",
   },
-  "parentObjectId":null,
-  "persistent":true,
+  "parentObjectId":{
+    "name":"ToolParent_obj",
+    "path":"objects/ToolParent_obj/ToolParent_obj.yy",
+  },
+  "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
   "physicsFriction":0.2,
