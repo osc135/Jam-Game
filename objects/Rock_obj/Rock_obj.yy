@@ -6,7 +6,9 @@
   ],
   "managed":true,
   "name":"Rock_obj",
-  "overriddenProperties":[],
+  "overriddenProperties":[
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"BreakableParent_obj","path":"objects/BreakableParent_obj/BreakableParent_obj.yy",},"propertyId":{"name":"required_tool","path":"objects/BreakableParent_obj/BreakableParent_obj.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"\"pickaxe\"",},
+  ],
   "parent":{
     "name":"Overworld",
     "path":"folders/Objects/World/Overworld.yy",

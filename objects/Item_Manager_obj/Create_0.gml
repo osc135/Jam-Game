@@ -19,6 +19,13 @@ global.item_list = {
         true
         ),
     
+    axe : new create_item(
+        "Axe",
+        Axe_spr,
+        false,
+        true
+        ),
+    
     //items
     fire_flower : new create_item(
         "Fire Flower",

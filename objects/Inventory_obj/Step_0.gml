@@ -39,6 +39,9 @@ if (keyboard_check_pressed(ord("G"))){
                 case "pickaxe":
                     drop_obj = Dropped_Pickaxe_obj;
                     break;
+                case "axe":
+                    drop_obj = Dropped_Axe_obj;
+                    break
                 default:
                     drop_obj = Dropped_Item_obj;
                     break;
@@ -61,6 +64,9 @@ if (keyboard_check_pressed(ord("G"))){
             //unequip items
             if (player.heldItem != noone){
                 if (item_entry.item_id == "pickaxe"){
+                    instance_destroy(player.heldItem);
+                    player.heldItem = noone;
+                }else if (item_entry.item_id == "axe"){
                     instance_destroy(player.heldItem);
                     player.heldItem = noone;
                 }

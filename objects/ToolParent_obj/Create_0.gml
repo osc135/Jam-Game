@@ -1,5 +1,3 @@
-//drop.item_id = "pickaxe";
-
 cooldown = 0;
 
 rotation = 45;

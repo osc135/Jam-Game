@@ -52,18 +52,46 @@ if inv != noone{
     if (is_struct(item_entry)){
         var item_id = item_entry.item_id;
         
-        if (item_id == "pickaxe"){
-            if (!instance_exists(heldItem)){
-                heldItem = instance_create_layer(x,y, "Instances", Pickaxe_obj);
+        if (item_id == "pickaxe" || item_id == "axe"){
+            //Checking if holding is the right object
+            if(instance_exists(heldItem)){
+                var held_type = heldItem.object_index;
+                if ((item_id == "pickaxe" && held_type != Pickaxe_obj) ||
+                    (item_id == "axe" && held_type != Axe_obj)){
+                        instance_destroy(heldItem);
+                        heldItem = noone;
+                }
             }
-        }else{
-            if (instance_exists(heldItem)){
-                instance_destroy(heldItem);
-                heldItem = noone;
+            
+            //If nothing held
+            if (!instance_exists(heldItem)){
+                switch (item_id){
+                    case "pickaxe":
+                        heldItem = instance_create_layer(x, y, "Instances", Pickaxe_obj);
+                        break;
+                    
+                    case "axe":
+                        heldItem = instance_create_layer(x, y, "Instances", Axe_obj);
+                        break;
+                    
+                    default:
+                        if (instance_exists(heldItem)){
+                            instance_destroy(heldItem);
+                            heldItem = noone;
+                        }
+                        break;
+                }
             }
         }
-    }else{
-        if(instance_exists(heldItem)){
+        else{
+            if (instance_exists(heldItem)){
+            instance_destroy(heldItem);
+            heldItem = noone;
+            }
+        }
+    } else{
+        //destroy if slot empty
+        if (instance_exists(heldItem)){
             instance_destroy(heldItem);
             heldItem = noone;
         }
