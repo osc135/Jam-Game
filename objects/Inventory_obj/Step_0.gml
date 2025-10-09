@@ -42,6 +42,9 @@ if (keyboard_check_pressed(ord("G"))){
                 case "axe":
                     drop_obj = Dropped_Axe_obj;
                     break
+                case "scythe":
+                    drop_obj = Dropped_Scythe_obj;
+                    break
                 default:
                     drop_obj = Dropped_Item_obj;
                     break;
@@ -67,6 +70,9 @@ if (keyboard_check_pressed(ord("G"))){
                     instance_destroy(player.heldItem);
                     player.heldItem = noone;
                 }else if (item_entry.item_id == "axe"){
+                    instance_destroy(player.heldItem);
+                    player.heldItem = noone;
+                }else if (item_entry.item_id == "scythe"){
                     instance_destroy(player.heldItem);
                     player.heldItem = noone;
                 }
