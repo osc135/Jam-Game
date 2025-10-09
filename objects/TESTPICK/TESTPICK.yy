@@ -6,8 +6,8 @@
   "name":"TESTPICK",
   "overriddenProperties":[],
   "parent":{
-    "name":"World",
-    "path":"folders/Objects/World.yy",
+    "name":"Shame",
+    "path":"folders/Objects/World/Shame.yy",
   },
   "parentObjectId":{
     "name":"Dropped_Item_obj",

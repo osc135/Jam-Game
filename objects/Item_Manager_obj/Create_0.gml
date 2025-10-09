@@ -12,12 +12,19 @@ function create_item(_name, _spr, _stack, _drop) constructor {
 global.item_list = {
     
     
-    red_flower : new create_item(
+    fire_flower : new create_item(
         "Fire Flower",
         FireFlower_spr,
         true,
         true
         ),
+    
+    water_flower : new create_item(
+        "Water Flower",
+        WaterFlower_spr,
+        true,
+        true
+    ),
     
     
     rock : new create_item(
@@ -27,11 +34,46 @@ global.item_list = {
         true
         ),
     
-    test : new create_item(
-        "test",
-        Inventory_item,
+    mugwort : new create_item(
+        "mugwort",
+        MugwortLeaf_spr,
         true,
         true
-        ),
+    ),
+    
+    bush : new create_item(
+        "bush",
+        bush_spr,
+        true,
+        true
+    ),
+    
+    wood : new create_item(
+        "wood",
+        wood_spr,
+        true,
+        true
+    ),
+    
+    blueberry : new create_item(
+        "blueberry",
+        BlueBerry_spr,
+        true,
+        true
+    ),
+    
+    redberry : new create_item(
+        "redberry",
+        RedBerry_spr,
+        true,
+        true
+    ),
+    
+    ah : new create_item(
+        "ah",
+        Ah_spr,
+        true,
+        true
+    ),
     
 }

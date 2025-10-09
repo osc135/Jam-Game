@@ -1,3 +1,41 @@
+
+function inventory_add_item(inv_ref, _item_id, _amount){
+    var item_data = variable_struct_get(global.item_list, _item_id);
+    var inv = inv_ref.inventory;
+    
+    //try stacking 
+    for (var i=0; i < array_length(inv); i++){
+        if (is_struct(inv[i])){
+            if (inv[i].item_id == _item_id && item_data.stackable){
+                inv[i].amount += _amount;
+                return true;
+            }
+        }
+    }
+    
+    //If not stacked
+    for (var i=0; i < array_length(inv); i++){
+        if (inv[i] == noone || inv[i] == -1){
+            inv[i] = {item_id:_item_id, amount:_amount};
+            inv_ref.inventory = inv;
+            return true;
+        }
+    }
+    
+    //Inventory full
+    return false;
+}
+
+
+
+
+
+
+
+#region Old code idk if we wanna keep
+
+
+/*
 function InventorySearch(rootObject, itemType){
 	for(var i = 0; i < INVENTORY_SLOTS; i ++){
 		if(rootObject.inventory[i] == itemType){
@@ -74,6 +112,6 @@ function InventoryDropOne(rootObject){
 	return false;
 }
 	
+			*/
 			
-			
-	
+	#endregion
