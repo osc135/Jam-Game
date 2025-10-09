@@ -9,8 +9,8 @@
   "name":"RedFlower_obj",
   "overriddenProperties":[],
   "parent":{
-    "name":"World",
-    "path":"folders/Objects/World.yy",
+    "name":"Overworld",
+    "path":"folders/Objects/World/Overworld.yy",
   },
   "parentObjectId":{
     "name":"BreakableParent_obj",

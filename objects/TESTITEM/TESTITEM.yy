@@ -9,8 +9,8 @@
   "name":"TESTITEM",
   "overriddenProperties":[],
   "parent":{
-    "name":"World",
-    "path":"folders/Objects/World.yy",
+    "name":"Shame",
+    "path":"folders/Objects/World/Shame.yy",
   },
   "parentObjectId":{
     "name":"BreakableParent_obj",

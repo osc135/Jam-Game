@@ -33,7 +33,40 @@ for (var i=0; i < INVENTORY_SLOTS; i++){
     if (i == selected_slot){
         draw_sprite_ext(Selection_spr, 0, xx, yy, 1, 1, 0, c_white, 1);                
     }else{
-        draw_sprite_ext(Inventory_Slot_spr, 0, xx, yy, 1, 1, 0, c_white, 0.8);        
+        draw_sprite_ext(Inventory_Slot_spr, 0, xx, yy, 1, 1, 0, c_grey, 0.9);        
+    }
+    
+    //Draw items
+    var item_entry = inventory[i]
+    if (is_struct(item_entry)){
+        var item_data = variable_struct_get(global.item_list, item_entry.item_id);
+        
+        if (item_data != undefined){
+             var spr = item_data.sprite;
+        
+            var spr_w = sprite_get_width(spr);
+            var spr_h = sprite_get_height(spr);
+            
+            var scale_x = slotW / spr_w * 0.8;
+            var scale_y = slotH / spr_h * 0.8;
+            
+            //center sprites
+            var draw_x = xx + (slotW - spr_w) / 2;
+            var draw_y = yy + (slotH - spr_h) / 2;
+            
+            if i == selected_slot{
+                draw_sprite_ext(spr, 0, draw_x, draw_y, scale_x, scale_y, 0, c_white, 1);
+                //stack amount
+                if(item_entry.amount > 1){
+                    draw_text_transformed(xx + (slotW/2) - 15, yy + slotH, string(item_entry.amount), 3,3,0);
+                }
+            } else{
+                draw_sprite_ext(spr, 0, draw_x, draw_y, scale_x, scale_y, 0, c_grey, 0.9); 
+            }
+            
+            
+        }
+       
     }
      
        

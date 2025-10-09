@@ -6,8 +6,8 @@
   "name":"Dropped_blueFl_obj",
   "overriddenProperties":[],
   "parent":{
-    "name":"World",
-    "path":"folders/Objects/World.yy",
+    "name":"Dropped",
+    "path":"folders/Objects/World/Dropped.yy",
   },
   "parentObjectId":{
     "name":"Dropped_Item_obj",
