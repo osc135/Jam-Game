@@ -26,6 +26,13 @@ global.item_list = {
         true
         ),
     
+    scythe : new create_item(
+        "Scythe",
+        Scythe_spr,
+        false,
+        true
+        ),
+    
     //items
     fire_flower : new create_item(
         "Fire Flower",
