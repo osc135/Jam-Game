@@ -72,6 +72,7 @@ for (var i=0; i < INVENTORY_SLOTS; i++){
        
 }
 
+/*
 // Get mouse position
 var mx = window_mouse_get_x();
 var my = window_mouse_get_y();
