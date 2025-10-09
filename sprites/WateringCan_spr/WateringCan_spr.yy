@@ -27,7 +27,7 @@
   "origin":0,
   "parent":{
     "name":"Potions&Tools",
-    "path":"folders/Sprites/Tiles/Potions&Tools.yy",
+    "path":"folders/Sprites/Potions&Tools.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

@@ -18,17 +18,22 @@ with (_breakable){
     
     // In range check
     if (_dist < other.breakdistance) {
+        
+        var player = instance_find(StartPlayer_obj, 0);
         //click
-        if (other.cooldown == 0 && _mousePress){
-            // Reduce hp
-            hp--;
+        if (instance_exists(player.heldItem)){
+            if (other.cooldown == 0 && _mousePress){
+                // Reduce hp
+                hp--;
+                
+                //set rotation
+                other.rotation = -80;
+                
+                //set cooldown
+                other.cooldown = 20;
+            }
+        }    
             
-            //set rotation
-            other.rotation = -80;
-            
-            //set cooldown
-            other.cooldown = 20;
-        }
     }
 }
 

@@ -42,69 +42,100 @@ else{
     sprite_index = PlayerIdle_spr;
 }
 
+
+// Equip item based on slot
+var inv = instance_find(Inventory_obj, 0);
+
+if inv != noone{
+    var item_entry = inv.inventory[inv.selected_slot];
+    
+    if (is_struct(item_entry)){
+        var item_id = item_entry.item_id;
+        
+        if (item_id == "pickaxe"){
+            if (!instance_exists(heldItem)){
+                heldItem = instance_create_layer(x,y, "Instances", Pickaxe_obj);
+            }
+        }else{
+            if (instance_exists(heldItem)){
+                instance_destroy(heldItem);
+                heldItem = noone;
+            }
+        }
+    }else{
+        if(instance_exists(heldItem)){
+            instance_destroy(heldItem);
+            heldItem = noone;
+        }
+    }
+}
+
+
+#region Old
 // OLD Set Sprite
 /*
 mask_index = sprite[DOWN];
 if yspeed == 0 {
 
-	if xspeed > 0 {face = RIGHT};
-	if xspeed < 0 {face = LEFT};
+    if xspeed > 0 {face = RIGHT};
+    if xspeed < 0 {face = LEFT};
 }
 
 if xspeed > 0 && face == LEFT {face = RIGHT};
 if xspeed < 0 && face == RIGHT {face = LEFT};
 
 if xspeed == 0 {
-	if yspeed > 0 {face = DOWN};
-	if yspeed < 0 {face = UP};
+    if yspeed > 0 {face = DOWN};
+    if yspeed < 0 {face = UP};
 }
 if yspeed > 0 && face == UP {face = DOWN};
 if yspeed < 0 && face == DOWN {face = UP};
 
 sprite_index = sprite[face];
 
- */
+*/
 
 
 
 /*
 // OLD Checking Collisions
 if place_meeting(x + moveX, y, wall_obj) == true
-	{
-	moveX = 0
-	}
+    {
+    moveX = 0
+    }
 if place_meeting(x, y + moveY, wall_obj) == true
-	{
-	moveY = 0
-	}
+    {
+    moveY = 0
+    }
 /*
 
 /*
 //Checks if key pressed is Z for pickaxe
     if (keyboard_check_pressed(ord("Z"))) {
-		var offsetX = 12;
-		var offsetY = 0
-		switch(face){
-			case RIGHT:
-				//offsetX = 12;
-				offsetY = 2;
-				break;
-			case LEFT:
-				offsetX = -12;
-				//offsetY = 2;
-				break;
-			case UP:
-				//offsetX = 12;
-				offsetY = -2;
-				break;
-			case DOWN:
-				//offsetX = 12;
-				offsetY = 2;
-				break; 
-			
-	}	
-			
-  //  var swing = instance_create_layer(x + offsetX, y + offsetY, "Instances", Swining_Pickaxe);
-   // swing.image_xscale = image_xscale;
+        var offsetX = 12;
+        var offsetY = 0
+        switch(face){
+            case RIGHT:
+                //offsetX = 12;
+                offsetY = 2;
+                break;
+            case LEFT:
+                offsetX = -12;
+                //offsetY = 2;
+                break;
+            case UP:
+                //offsetX = 12;
+                offsetY = -2;
+                break;
+            case DOWN:
+                //offsetX = 12;
+                offsetY = 2;
+                break; 
+            
+    }	
+            
+//  var swing = instance_create_layer(x + offsetX, y + offsetY, "Instances", Swining_Pickaxe);
+// swing.image_xscale = image_xscale;
 }
 */
+#endregion

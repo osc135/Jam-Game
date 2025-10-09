@@ -9,6 +9,24 @@ inventory = array_create(INVENTORY_SLOTS, noone);
 selected_slot = 0;
 selected_item = noone;
 
+//sprite size
+var slotH = sprite_get_height(Inventory_Slot_spr)
+var slotW = sprite_get_width(Inventory_Slot_spr)
+//padding between
+var padX = 1;
+var padY = 1;
+
+// amount of columns and rows
+var cols = min(INVENTORY_SLOTS, row_length);
+var rows = ceil(INVENTORY_SLOTS / row_length);
+
+// panel height & width
+var invH = rows * (slotH + padY);
+var invW = cols * (slotW + padX);
+
+// flexible panel placement
+var invX = (display_get_gui_width() - invW) div 2
+var invY = display_get_gui_height() - invH - 100;
 
 /*
 

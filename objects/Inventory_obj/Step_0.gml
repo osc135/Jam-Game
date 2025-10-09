@@ -30,36 +30,40 @@ if (keyboard_check_pressed(ord("G"))){
             var drop_x = player.x + random_range(12,20);
             var drop_y = player.y;
             
-            //create dropped item
-            var dropped = instance_create_depth(drop_x, drop_y, -100, Dropped_Item_obj);
-            if dropped != noone{
-                dropped.item_id = item_entry.item_id;
-            }
-            
-            /*
-            //Add [Shift] for full stack
+            //decide how many to drop
             var drop_amount = keyboard_check(vk_shift) ? item_entry.amount : 1;
             
-            for (var j = 0; j < drop_amount; j++){
-                var stack_dropped = instance_create_depth(drop_x + random_range(-2,2), drop_y, -100, Dropped_Item_obj);
-                if (stack_dropped != noone) stack_dropped.item_id = item_entry.item_id;
+            //Decide what to drop
+            var drop_obj;
+            switch (item_entry.item_id){
+                case "pickaxe":
+                    drop_obj = Dropped_Pickaxe_obj;
+                    break;
+                default:
+                    drop_obj = Dropped_Item_obj;
+                    break;
             }
             
-            if (keyboard_check(vk_shift)){
+            //create dropped item
+            var dropped = instance_create_depth(drop_x, drop_y, -100, drop_obj);
+            if dropped != noone{
+                dropped.item_id = item_entry.item_id;
+                dropped.amount = drop_amount;
+            }
+            
+            if (drop_amount >= item_entry.amount){
                 inventory[selected_slot] = noone;
             } else{
-                item_entry.amount -= 1;
-                if(item_entry.amount <= 0) inventory[selected_slot] = noone;
-                else inventory[selected_slot] = item_entry;
-            }
-             */
-            
-            //decrease stack
-            if (item_entry.amount > 1){
-                item_entry.amount -= 1;
+                item_entry.amount -= drop_amount;
                 inventory[selected_slot] = item_entry;
-            }else{
-                inventory[selected_slot] = noone;
+            }
+            
+            //unequip items
+            if (player.heldItem != noone){
+                if (item_entry.item_id == "pickaxe"){
+                    instance_destroy(player.heldItem);
+                    player.heldItem = noone;
+                }
             }
              
         }

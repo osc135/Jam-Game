@@ -11,7 +11,15 @@ function create_item(_name, _spr, _stack, _drop) constructor {
 //creating items
 global.item_list = {
     
+    //tools
+    pickaxe : new create_item(
+        "Pickaxe",
+        Swinging_pickaxe_sprite,
+        false,
+        true
+        ),
     
+    //items
     fire_flower : new create_item(
         "Fire Flower",
         FireFlower_spr,
