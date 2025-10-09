@@ -1,9 +1,9 @@
 {
   "$GMScript":"v1",
-  "%Name":"item_functions",
+  "%Name":"Equip_Item",
   "isCompatibility":false,
   "isDnD":false,
-  "name":"item_functions",
+  "name":"Equip_Item",
   "parent":{
     "name":"Scripts",
     "path":"folders/Scripts.yy",

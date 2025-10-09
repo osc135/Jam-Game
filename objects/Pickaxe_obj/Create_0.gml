@@ -1,3 +1,4 @@
+//drop.item_id = "pickaxe";
 
 cooldown = 0;
 

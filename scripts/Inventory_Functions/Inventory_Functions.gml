@@ -1,4 +1,4 @@
-
+//pick up dropped items
 function inventory_add_item(inv_ref, _item_id, _amount){
     var item_data = variable_struct_get(global.item_list, _item_id);
     var inv = inv_ref.inventory;
@@ -27,8 +27,87 @@ function inventory_add_item(inv_ref, _item_id, _amount){
 }
 
 
+//Chest transferring
+function move_item_one(_item_entry, _inv){
+    for (var j = 0; j < INVENTORY_SLOTS; j++){
+        var slot = _inv.inventory[j];
+        
+        if (slot == -1){
+            _inv.inventory[j] = {item_id: _item_entry.item_id, amount:1};
+            return;
+        }
+        
+        if (is_struct(slot) && slot.item_id == _item_entry.item_id){
+            slot.amount += 1;
+            _inv.inventory[j] = slot;
+            return;
+        }
+    }
+}
 
 
+function move_item_stack(_item_entry, _inv){
+    var remaining = _item_entry.amount;
+    
+    for (var j = 0; j < INVENTORY_SLOTS; j++){
+        var slot = _inv.inventory[j];
+        if (is_struct(slot) && slot.item_id == _item_entry.item_id){
+            slot.amount += remaining;
+            _inv.inventory[j] = slot;
+            return;
+        }
+    }
+    
+    for (var j = 0; j < INVENTORY_SLOTS; j++){
+        var slot = _inv.inventory[j];
+        if (slot == -1){
+            _inv.inventory[j] = { item_id: _item_entry.item_id, amount: remaining};
+            return;
+        }
+    }
+}
+
+function move_item_one_to_chest(_item_entry, _chest) {
+    for (var j = 0; j < CHEST_SLOTS; j++) {
+        var slot = _chest.inventory[j];
+        
+        // Empty slot
+        if (slot == -1) {
+            _chest.inventory[j] = { item_id: _item_entry.item_id, amount: 1 };
+            return;
+        }
+        
+        // Stackable
+        if (is_struct(slot) && slot.item_id == _item_entry.item_id) {
+            slot.amount += 1;
+            _chest.inventory[j] = slot;
+            return;
+        }
+    }
+}
+
+function move_item_stack_to_chest(_item_entry, _chest) {
+    var remaining = _item_entry.amount;
+    
+    // fill existing stacks
+    for (var j = 0; j < CHEST_SLOTS; j++) {
+        var slot = _chest.inventory[j];
+        if (is_struct(slot) && slot.item_id == _item_entry.item_id) {
+            slot.amount += remaining;
+            _chest.inventory[j] = slot;
+            return;
+        }
+    }
+    
+    // empty slots if no existing stack
+    for (var j = 0; j < CHEST_SLOTS; j++) {
+        var slot = _chest.inventory[j];
+        if (slot == -1) {
+            _chest.inventory[j] = { item_id: _item_entry.item_id, amount: remaining };
+            return;
+        }
+    }
+}
 
 
 

@@ -50,7 +50,7 @@
   "roomSettings":{
     "Height":200,
     "inheritRoomSettings":false,
-    "persistent":false,
+    "persistent":true,
     "Width":250,
   },
   "sequenceId":null,
