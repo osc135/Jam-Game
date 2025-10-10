@@ -5,11 +5,12 @@ if (_playerExists) _heldItem = StartPlayer_obj.heldItem;
 
 
 with (all) {
-    depth = -bbox_bottom;
+    if (object_index != FarmGrass_obj) {
+        depth = -bbox_bottom;
     
-    //Held Items
-    if (_playerExists && _heldItem == id){
-        depth -= 10;
+        if (_playerExists && _heldItem == id) {
+            depth -= 10;
+        }
     }
     
 }

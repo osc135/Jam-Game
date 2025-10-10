@@ -1,10 +1,11 @@
 
 //item constructor
-function create_item(_name, _spr, _stack, _drop) constructor {
+function create_item(_name, _spr, _stack, _drop, _plantable) constructor {
     name = _name;
     sprite = _spr;
     stackable = _stack;
     drop = _drop
+    plantable = _plantable;
 }
 
 
@@ -16,36 +17,51 @@ global.item_list = {
         "Pickaxe",
         Swinging_pickaxe_sprite,
         false,
-        true
+        true,
+        false
         ),
     
     axe : new create_item(
         "Axe",
         Axe_spr,
         false,
-        true
+        true,
+        false
         ),
     
     scythe : new create_item(
         "Scythe",
         Scythe_spr,
         false,
-        true
+        true,
+        false
         ),
+    
+    hoe : new create_item(
+        "Hoe",
+        Hoe_spr,
+        false,
+        true,
+        false
+        ),
+    
+    
     
     //items
     fire_flower : new create_item(
         "Fire Flower",
         FireFlower_spr,
         true,
-        true
+        true,
+        false
         ),
     
     water_flower : new create_item(
         "Water Flower",
         WaterFlower_spr,
         true,
-        true
+        true,
+        false
     ),
     
     
@@ -53,33 +69,38 @@ global.item_list = {
         "rock",
         rock_spr,
         true,
-        true
+        true,
+        false
         ),
     
     mugwort : new create_item(
         "mugwort",
         MugwortLeaf_spr,
         true,
-        true
+        true,
+        false
     ),
     
     bush : new create_item(
         "bush",
         bush_spr,
         true,
-        true
+        true,
+        false
     ),
     
     wood : new create_item(
         "wood",
         wood_spr,
         true,
-        true
+        true,
+        false
     ),
     
     blueberry : new create_item(
         "blueberry",
         BlueBerry_spr,
+        true,
         true,
         true
     ),
@@ -88,12 +109,6 @@ global.item_list = {
         "redberry",
         RedBerry_spr,
         true,
-        true
-    ),
-    
-    ah : new create_item(
-        "ah",
-        Ah_spr,
         true,
         true
     ),

@@ -6,8 +6,8 @@
   "name":"Dropped_ah_obj",
   "overriddenProperties":[],
   "parent":{
-    "name":"Dropped",
-    "path":"folders/Objects/World/Dropped.yy",
+    "name":"Shame",
+    "path":"folders/Objects/World/Shame.yy",
   },
   "parentObjectId":{
     "name":"Dropped_Item_obj",
