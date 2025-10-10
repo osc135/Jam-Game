@@ -9,8 +9,8 @@
   "name":"ToolParent_obj",
   "overriddenProperties":[],
   "parent":{
-    "name":"Functioning",
-    "path":"folders/Objects/Functioning.yy",
+    "name":"Tools",
+    "path":"folders/Objects/Functioning/Tools.yy",
   },
   "parentObjectId":null,
   "persistent":false,

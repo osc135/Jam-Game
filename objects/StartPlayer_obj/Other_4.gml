@@ -9,6 +9,9 @@ if (inv != noone) {
             case "axe":
                 heldItem = instance_create_layer(x, y, "Instances", Axe_obj);
                 break;
+            case "scythe":
+                heldItem = instance_create_layer(x, y, "Instances", Scythe_obj);
+                break;
         }
     }
 }

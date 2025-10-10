@@ -6,7 +6,7 @@ bob_offset = sin((current_time - spawn_time) * 0.005) * bob_height;
 var player = instance_nearest(x, y, StartPlayer_obj);
 
 if (player != noone){
-    if (point_distance(x, y, player.x, player.y) < 8){
+    if (point_distance(x, y, player.x, player.y) < 12){
         // Find the inventory 
         var inv = instance_find(Inventory_obj, 0);
         if (inv != noone){
