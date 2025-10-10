@@ -8,8 +8,8 @@
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"ToolParent_obj","path":"objects/ToolParent_obj/ToolParent_obj.yy",},"propertyId":{"name":"item_id","path":"objects/ToolParent_obj/ToolParent_obj.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"\"scythe\"",},
   ],
   "parent":{
-    "name":"Functioning",
-    "path":"folders/Objects/Functioning.yy",
+    "name":"Tools",
+    "path":"folders/Objects/Functioning/Tools.yy",
   },
   "parentObjectId":{
     "name":"ToolParent_obj",

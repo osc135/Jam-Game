@@ -8,6 +8,7 @@
   "name":"Rock_obj",
   "overriddenProperties":[
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"BreakableParent_obj","path":"objects/BreakableParent_obj/BreakableParent_obj.yy",},"propertyId":{"name":"required_tool","path":"objects/BreakableParent_obj/BreakableParent_obj.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"\"pickaxe\"",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"BreakableParent_obj","path":"objects/BreakableParent_obj/BreakableParent_obj.yy",},"propertyId":{"name":"hp","path":"objects/BreakableParent_obj/BreakableParent_obj.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"3",},
   ],
   "parent":{
     "name":"Overworld",

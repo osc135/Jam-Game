@@ -1,3 +1,9 @@
+// Hide inventory if ANY chest is open
+var chest_open = false;
+with (Chest_obj) {
+    if (is_open) chest_open = true;
+}
+if (chest_open) exit;
 // Drawing Panels
 
 //sprite size

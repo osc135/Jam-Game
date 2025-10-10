@@ -1,6 +1,13 @@
 // --- Tool behavior ---
 rotation = lerp(rotation, 20, 0.1);
-image_angle = rotation * StartPlayer_obj.image_xscale;
+
+// Flip and rotate with player
+var player = instance_find(StartPlayer_obj, 0);
+if (instance_exists(player)) {
+    
+    image_xscale = player.image_xscale; // mirror with player
+    image_angle = rotation * image_xscale; // rotate relative to facing
+}
 
 // --- Input ---
 var _mousePress = mouse_check_button(mb_left);

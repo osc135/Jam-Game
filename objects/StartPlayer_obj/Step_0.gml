@@ -4,6 +4,12 @@ up_key = keyboard_check(ord("W"));
 down_key = keyboard_check(ord("S"));
 shift_key = keyboard_check(vk_shift);
 
+var chest_open = false;
+with (Chest_obj) {
+    if (is_open) chest_open = true;
+}
+if (chest_open) moveSpeed = 0;
+    else moveSpeed = 1;
 
 //Calculating Direction with sprint
 	//sprint seems weird amount, come back to change maybe 
@@ -103,73 +109,16 @@ if inv != noone{
     }
 }
 
+// --- Open / close chest with right-click ---
+if (mouse_check_button_pressed(mb_right)) {
+    var chest = instance_position(mouse_x, mouse_y, Chest_obj);
 
-
-#region Old
-// OLD Set Sprite
-/*
-mask_index = sprite[DOWN];
-if yspeed == 0 {
-
-    if xspeed > 0 {face = RIGHT};
-    if xspeed < 0 {face = LEFT};
-}
-
-if xspeed > 0 && face == LEFT {face = RIGHT};
-if xspeed < 0 && face == RIGHT {face = LEFT};
-
-if xspeed == 0 {
-    if yspeed > 0 {face = DOWN};
-    if yspeed < 0 {face = UP};
-}
-if yspeed > 0 && face == UP {face = DOWN};
-if yspeed < 0 && face == DOWN {face = UP};
-
-sprite_index = sprite[face];
-
-*/
-
-
-
-/*
-// OLD Checking Collisions
-if place_meeting(x + moveX, y, wall_obj) == true
-    {
-    moveX = 0
+    if (chest != noone) {
+        var dist = point_distance(x, y, chest.x, chest.y);
+        if (dist < 32) {
+            chest.is_open = !chest.is_open;
+        }
     }
-if place_meeting(x, y + moveY, wall_obj) == true
-    {
-    moveY = 0
-    }
-/*
-
-/*
-//Checks if key pressed is Z for pickaxe
-    if (keyboard_check_pressed(ord("Z"))) {
-        var offsetX = 12;
-        var offsetY = 0
-        switch(face){
-            case RIGHT:
-                //offsetX = 12;
-                offsetY = 2;
-                break;
-            case LEFT:
-                offsetX = -12;
-                //offsetY = 2;
-                break;
-            case UP:
-                //offsetX = 12;
-                offsetY = -2;
-                break;
-            case DOWN:
-                //offsetX = 12;
-                offsetY = 2;
-                break; 
-            
-    }	
-            
-//  var swing = instance_create_layer(x + offsetX, y + offsetY, "Instances", Swining_Pickaxe);
-// swing.image_xscale = image_xscale;
 }
-*/
-#endregion
+
+#region OLD
