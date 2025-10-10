@@ -12,6 +12,9 @@ if (inv != noone) {
             case "scythe":
                 heldItem = instance_create_layer(x, y, "Instances", Scythe_obj);
                 break;
+            case "hoe":
+                heldItem = instance_create_layer(x, y, "Instances", Hoe_obj);
+                break;
         }
     }
 }

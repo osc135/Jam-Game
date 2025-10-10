@@ -58,13 +58,14 @@ if inv != noone{
     if (is_struct(item_entry)){
         var item_id = item_entry.item_id;
         
-        if (item_id == "pickaxe" || item_id == "axe" || item_id == "scythe"){
+        if (item_id == "pickaxe" || item_id == "axe" || item_id == "scythe" || item_id == "hoe"){
             //Checking if holding is the right object
             if(instance_exists(heldItem)){
                 var held_type = heldItem.object_index;
                 if ((item_id == "pickaxe" && held_type != Pickaxe_obj) ||
                     (item_id == "axe" && held_type != Axe_obj) ||
-                    (item_id == "scythe" && held_type != Scythe_obj)){
+                    (item_id == "scythe" && held_type != Scythe_obj)||
+                    (item_id == "hoe" && held_type != Hoe_obj)){
                         instance_destroy(heldItem);
                         heldItem = noone;
                 }
@@ -83,6 +84,10 @@ if inv != noone{
                     
                     case "scythe":
                         heldItem = instance_create_layer(x, y, "Instances", Scythe_obj);
+                        break;
+                    
+                    case "hoe":
+                        heldItem = instance_create_layer(x, y, "Instances", Hoe_obj);
                         break;
                     
                     default:

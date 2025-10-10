@@ -9,8 +9,8 @@
   "name":"Ah_obj",
   "overriddenProperties":[],
   "parent":{
-    "name":"Overworld",
-    "path":"folders/Objects/World/Overworld.yy",
+    "name":"Shame",
+    "path":"folders/Objects/World/Shame.yy",
   },
   "parentObjectId":{
     "name":"BreakableParent_obj",
