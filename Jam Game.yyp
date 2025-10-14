@@ -144,6 +144,7 @@
     {"id":{"name":"BasicChairs_spr","path":"sprites/BasicChairs_spr/BasicChairs_spr.yy",},},
     {"id":{"name":"BasicFurniture_spr","path":"sprites/BasicFurniture_spr/BasicFurniture_spr.yy",},},
     {"id":{"name":"BasicTables_spr","path":"sprites/BasicTables_spr/BasicTables_spr.yy",},},
+    {"id":{"name":"bear_spr","path":"sprites/bear_spr/bear_spr.yy",},},
     {"id":{"name":"bed_spr","path":"sprites/bed_spr/bed_spr.yy",},},
     {"id":{"name":"Blacksmith_spr","path":"sprites/Blacksmith_spr/Blacksmith_spr.yy",},},
     {"id":{"name":"BlueBerry_spr","path":"sprites/BlueBerry_spr/BlueBerry_spr.yy",},},
